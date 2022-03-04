@@ -1,5 +1,5 @@
 a{
-    font-size: 1.;
+    font-size: 1.5vw;
 }
 body{
     align-content: center;
@@ -21,6 +21,7 @@ h3{
     font-size: 2vw;
 }
 hr{
+    padding-top: 5%;
     border-style: none;
     border-bottom-style: dotted;
     width: 5%;
@@ -33,6 +34,7 @@ p{
     margin: 0;
     padding-left: 20%;
     padding-right: 20%;
+    padding-bottom: 2%;
 }
 div{
     margin: 0;
@@ -55,4 +57,21 @@ div{
 }
 .profile_pic{
     padding-top: 20px;
+    width:25vw;
+}
+.skills-pic{
+    width: 15%;
+    max-width: 15%;
+}
+.skills{
+    
+}
+.communication{
+    
+}
+.html-css{
+    
+}
+.java{
+    
 }
