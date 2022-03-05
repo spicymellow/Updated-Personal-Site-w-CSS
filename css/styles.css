@@ -13,9 +13,10 @@ h1{
     font-size: 4vw;
 }
 h2{
-    margin-top: 10px;
+    margin-top: auto;
     font-family: 'Merriweather', serif;
-    font-size: 3vw;  
+    font-size: 3vw; 
+    padding-top: 10px; 
 }
 h3{
     font-family: 'Merriweather', serif;
@@ -47,12 +48,13 @@ div{
 }
 .middle_container {
     background-color: #EDFFEC;
-    
+    margin: auto;
 }
 .contact-me{
     background-color: #F6DFEB;
     position: absolute;
     width: 100%;
+    height: 100%;
 }
 .top-container-text{
     position: absolute;
@@ -68,9 +70,6 @@ div{
 .skills-pic{
     width: auto;
     max-width: 15%;
-}
-.skills{
-    
 }
 .communication{
     float: left;
