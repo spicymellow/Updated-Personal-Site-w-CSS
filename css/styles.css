@@ -8,6 +8,28 @@ body{
     margin: 0;
     text-align: center;
 }
+.btn {
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    text-shadow: 1px 1px 0px #e6e6e6;
+    font-family: Arial;
+    color: #E4BAD4;
+    font-size: 14px;
+    background: #F6DFEB;
+    padding: 10px 12px 10px 12px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #F6DFEB;
+    background-image: -webkit-linear-gradient(top, #F6DFEB, #CAF7E3);
+    background-image: -moz-linear-gradient(top, #F6DFEB, #CAF7E3);
+    background-image: -ms-linear-gradient(top, #F6DFEB, #CAF7E3);
+    background-image: -o-linear-gradient(top, #F6DFEB, #CAF7E3);
+    background-image: linear-gradient(to bottom, #F6DFEB, #CAF7E3);
+    text-decoration: none;
+  }
 h1{
     margin: 0 auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -83,8 +105,50 @@ div{
     flex-direction: row;
     justify-content: center;
 }
+.communication{
+    margin: auto;
+    min-width: 33%;
+}
+.html-css{
+    margin: auto;
+    min-width: 33%;
+}
+.java{
+    margin: auto;
+    min-width: 33%;
+}
 @media (max-width: 800px) {
+    h1{
+        font-size: xx-large;
+    }
+    h2{
+        font-size: x-large;
+    }
+    h3{
+        font-size: larger;
+    }
+    .skills-pic{
+        max-width: 20%;
+    }
+    p{
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: larger;
+    }
     .skills {
       flex-direction: column;
+    }
+    .communication{
+        width: 100%;
+    }
+    .html-css{
+        width: 100%;
+    }
+    .java{
+        width: 100%;
+    }
+    #student-tagline{
+        padding-left: 12%;
+        font-size: large;
     }
   }
